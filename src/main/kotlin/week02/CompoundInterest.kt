@@ -4,7 +4,7 @@ fun main(){
     println("What was the principal amount deposited into the account? ")
     val principal = Integer.valueOf(readLine())
     println("What is the annual interest percent rate paid by the account? ")
-    var interestRate = Integer.valueOf(readLine())
+    val interestRate = Integer.valueOf(readLine())
     val doubleRate = interestRate.toDouble()
     println("How many times per year is the interest compounded?")
     val compoundPerYear = Integer.valueOf(readLine())
