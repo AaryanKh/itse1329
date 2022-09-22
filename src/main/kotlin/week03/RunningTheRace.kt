@@ -39,5 +39,5 @@ fun main(){
         min2 = tempMin
         rn2 = tempName
     }
-    println("The order of the runners are $rn1 as first $rn2 as second $rn3 as third.")
+    println("The order of the runners are \n$rn1 as first \n$rn2 as second \n$rn3 as third.")
 }

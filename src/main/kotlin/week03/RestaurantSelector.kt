@@ -1,5 +1,5 @@
 fun main(){
-    // Aaryan Khan assignment number 03.7 Restaurant Selector 09/22/2022
+// Aaryan Khan assignment number 03.7 Restaurant Selector 09/22/2022
     println("Is anyone in your party a vegetarian? ")
     val vegetChoice = readLine()!!
     println("Is anyone in your party a vegan? ")
@@ -25,6 +25,7 @@ fun main(){
             }
         }
     }
+
     else{
         if (veganChoice.equals("yes",ignoreCase = true)){
             if(glutenChoice.equals("yes",ignoreCase = true)){
@@ -38,6 +39,7 @@ fun main(){
             }
         }
     }
+
 }
 
 fun printJoe(){
