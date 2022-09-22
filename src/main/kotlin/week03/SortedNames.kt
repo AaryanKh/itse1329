@@ -1,23 +1,23 @@
 
 fun main(){
     println("Enter the first name >> ")
-    var firstName = readLine()
+    var firstName = readLine()!!
     println("Enter the second name >> ")
-    var secondName = readLine()
+    var secondName = readLine()!!
     println("Enter the third name >> ")
-    var thirdName = readLine()
+    var thirdName = readLine()!!
 
-    if(firstName!! > secondName!!){
+    if(firstName > secondName){
         val temp = firstName
         firstName = secondName
         secondName = temp
     }
-    if (secondName!! > thirdName!!){
+    if (secondName > thirdName){
         val temp = secondName
         secondName = thirdName
         thirdName = temp
     }
-    if(firstName!! > secondName!!){
+    if(firstName > secondName){
         val temp = firstName
         firstName = secondName
         secondName = temp
