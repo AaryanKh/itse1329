@@ -1,5 +1,5 @@
 import kotlin.math.pow
-// Aaryan Khan 0.29 CompoundInterest 09/15/2022
+// Aaryan Khan 02.9 CompoundInterest 09/15/2022
 fun main(){
     println("What was the principal amount deposited into the account? ")
     val principal = Integer.valueOf(readLine())
