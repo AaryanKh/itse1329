@@ -1,7 +1,7 @@
 import com.sun.jdi.IntegerValue
 
 fun main() {
-    // Aaryan Khan 03.8 Bank Charges
+    // Aaryan Khan 03.8 Bank Charges 09/23/2022
     println("How many checks did you write this month?")
     val numberOfChecks = Integer.valueOf(readLine()!!)
     val baseFee = 10
