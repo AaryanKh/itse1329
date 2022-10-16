@@ -1,3 +1,8 @@
+import java.util.Scanner
+
 fun main(){
-    println("Hello World")
+    println("What is your name?")
+    var deviceInput = Scanner(System.`in`)
+    var name = deviceInput.nextLine()
+    
 }

@@ -14,7 +14,6 @@ fun main(){
         9 -> "IX"
         10 -> "X"
         else -> "Error - number is out of bounds"
-
     }
 
     println("User guess as a numeral is $romanNumeral")
