@@ -1,12 +1,10 @@
-fun main() {
+fun main(){
     println(isPrime(6))
     println(isPrime(13))
     println(isPrime(8893))
 }
 fun isNumberDivisible(number: Int, divisor: Int): Boolean{
-    if (number % divisor == 0)
-        return true
-    return false
+    return number % divisor == 0
 }
 fun isPrime(number: Int): Boolean {
     if (number <= 0)
