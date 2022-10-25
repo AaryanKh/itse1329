@@ -11,6 +11,7 @@ fun playGame(){
     when(computerGuess){
         1 -> println("The computer entered rock")
         2 -> println("The computer entered paper")
-        3 -> println("")
+        3 -> println("The computer entered scissors")
     }
+
 }
